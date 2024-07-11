@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Investimentos</title>
+    <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+    <main class="container">
+        <img src="imagens/invest.png"
+    </main>
+</body>
+<body>
+        <p style="text-align: center;">
+            <a href="#" class="btn">Começar teste gratuito</a>
+        </p>
+
+            <p style="text-align: center; color: aliceblue;">
+              Não perca tempo! Clique no botão acima e venha mudar sua vida financeira!
+            </p>
+    </div>
+    
+    <script>
+        // Função para redirecionar para o quiz
+        function redirecionarParaQuiz() {
+            window.location.href = 'quiz.html'; // Substitua 'quiz.html' pelo URL correto da página do quiz
+        }
+
+        // Event listener para o clique no botão de inscrição
+        document.querySelector('.btn').addEventListener('click', function(event) {
+            event.preventDefault(); // Previne o comportamento padrão do link
+            redirecionarParaQuiz(); // Chama a função de redirecionamento
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+    var imagem = document.querySelector('.imagem');
+
+    // Quando o conteúdo HTML é carregado, adiciona a classe 'animar' para iniciar a animação
+    setTimeout(function() {
+        imagem.classList.add('animar');
+    }, 500); // Delay opcional para iniciar a animação após meio segundo
+});
+    </script>
+</body>
+</html>
